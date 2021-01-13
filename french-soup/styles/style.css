@@ -7,3 +7,74 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+.image {
+  position:relative;
+
+}
+
+.backImage {
+  height: auto;
+  max-width: 100% ;
+}
+
+.h1class {
+  position: absolute;
+  display: flex;
+  color:whitesmoke;
+  text-align: center;
+  font-size: 6em;
+  font-weight:lighter;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.myrecipe { 
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.recipeInfo {
+  margin-top: 50px;
+}
+
+.ingredients {
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  font-size: 2em;
+  list-style-type:none;
+  
+  
+}
+
+ul { margin:0; list-style-type: none; } 
+ul li:before { content: "- ";}
+
+
+.cookingInfo {
+  text-align: center;
+}
+
+.directions{
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+#line {
+  margin-left: 200px;
+  margin-right: 200px;
+}
